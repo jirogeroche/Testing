@@ -1,0 +1,56 @@
+#f1{
+    margin: 0 auto;
+    width: 400px;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+}
+
+#f2{
+    margin: 0 auto;
+    width: 450px;
+    height: 425px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+p{
+    margin: 0px;
+}
+
+#t1{
+    height: 160px;
+    width: 220px;
+}
+
+#c1{
+    margin-left: 82px;
+}
+
+#l1{
+    margin-left: 20px;
+}
+
+#l2{
+    margin-left: 20px;
+}
+
+#l3{
+    margin-left: 20px;
+}
+
+#l4{
+    margin-left: 20px;
+}
+
+#l5{
+    margin-left: 20px;
+}
+
+#s1{
+    margin-left: 78px;
+}

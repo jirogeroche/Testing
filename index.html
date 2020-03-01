@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <form id="f1">
+        <h1>Speaker Submission</h1>
+        <p id="p1">Want to speak at our fake conference?</p>
+        <p id="p2">Fill out this form.</p>
+    </form>
+
+    <form id="f2">
+        <label id="l5">Name <input type="text"></label><br><br>
+        <label id="l4">Email <input type="email" required></label><br>
+        <label id="l3">Type of Talk
+            <input type="radio" name="type" value="mainstage">
+            <label for="mainstage">Main Stage</label>
+            <input type="radio" name="type" value="workshop">
+            <label for="workshop">Workshop</label>
+        </label><br>
+        <label id="l2">T-Shirt Size
+            <select>
+                <option>Extra Small</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>Extra Large</option>
+            </select><br><br>
+            <label id="l1">Abstract <input type="text" id="t1"></label><br><br>
+            <input type="checkbox" id="c1"> I'm actually available the date of The Talk <br><br>
+            <input type="submit" value="Submit" id="s1" onclick="sent()"><br><br>
+        </label>
+
+    </form>
+</body>
+</html>
